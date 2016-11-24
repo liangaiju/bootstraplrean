@@ -17,7 +17,6 @@ const mime = require('mime');
 const fs = require('mz/fs');
 
 // 对于任何请求，app将调用该异步函数处理请求：
-
 app.use(async (ctx, next) => {
     const start = new Date().getTime(); // 当前时间
     await next(); // 调用下一个middleware
@@ -33,7 +32,7 @@ app.use(async (ctx, next) => {
 // });
 
 let staticFiles = require('./static-files');
-app.use(staticFiles('/staticfile/', __dirname + '/../staticfile'));
+app.use(staticFiles('/staticfile/', __dirname+'/../'));
 
 // 在端口9000监听:
 app.listen(9000);
