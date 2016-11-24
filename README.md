@@ -1,5 +1,5 @@
-# bootstraplrean
+#项目名 bootstraplrean 
 
-#npm install
+#step 1： npm install
 
-#node js/babelstart.js
+#step 2：node js/babelstart.js
