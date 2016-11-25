@@ -5,7 +5,7 @@ module.exports = function(grunt) {
                 livereload: true
             },
             all: {
-                files: ['staticfile/*']
+                files: ['staticfile/*.html','staticfile/css/*.css']
             }
         },
         nodemon: {
