@@ -2,7 +2,7 @@
   "name": "bootstraplrean",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "js/babelstart.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +24,11 @@
     "koa": "2.0.0",
     "koa-router": "7.0.0",
     "mz": "^2.6.0",
-    "mime":"1.2.2"
+    "mime": "1.2.2",
+    "grunt": "~0.4.5",
+    "grunt-nodemon": "^0.4.2"
+  },
+  "devDependencies": {
+    "grunt-nodemon": "^0.4.2"
   }
 }
